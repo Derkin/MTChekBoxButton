@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F8E15F6174B67E4001BB772 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8E15F5174B67E4001BB772 /* UIKit.framework */; };
+		7F8E15F8174B67E4001BB772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8E15F7174B67E4001BB772 /* Foundation.framework */; };
+		7F8E15FA174B67E4001BB772 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8E15F9174B67E4001BB772 /* CoreGraphics.framework */; };
+		7F8E1600174B67E4001BB772 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E15FE174B67E4001BB772 /* InfoPlist.strings */; };
+		7F8E1602174B67E4001BB772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E1601174B67E4001BB772 /* main.m */; };
+		7F8E1606174B67E4001BB772 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E1605174B67E4001BB772 /* AppDelegate.m */; };
+		7F8E1608174B67E4001BB772 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E1607174B67E4001BB772 /* Default.png */; };
+		7F8E160A174B67E4001BB772 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E1609174B67E4001BB772 /* Default@2x.png */; };
+		7F8E160C174B67E4001BB772 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E160B174B67E4001BB772 /* Default-568h@2x.png */; };
+		7F8E160F174B67E4001BB772 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E160E174B67E4001BB772 /* ViewController.m */; };
+		7F8E1612174B67E4001BB772 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E1610174B67E4001BB772 /* ViewController.xib */; };
+		7F8E161F174B6809001BB772 /* BECheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E161A174B6808001BB772 /* BECheckBox.m */; };
+		7F8E1620174B6809001BB772 /* com_btn_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E161B174B6808001BB772 /* com_btn_checked.png */; };
+		7F8E1621174B6809001BB772 /* com_btn_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E161C174B6808001BB772 /* com_btn_checked@2x.png */; };
+		7F8E1622174B6809001BB772 /* com_btn_uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E161D174B6808001BB772 /* com_btn_uncheck.png */; };
+		7F8E1623174B6809001BB772 /* com_btn_uncheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E161E174B6809001BB772 /* com_btn_uncheck@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F8E15F2174B67E4001BB772 /* CheckBoxButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBoxButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8E15F5174B67E4001BB772 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F8E15F7174B67E4001BB772 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F8E15F9174B67E4001BB772 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F8E15FD174B67E4001BB772 /* CheckBoxButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckBoxButton-Info.plist"; sourceTree = "<group>"; };
+		7F8E15FF174B67E4001BB772 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F8E1601174B67E4001BB772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F8E1603174B67E4001BB772 /* CheckBoxButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckBoxButton-Prefix.pch"; sourceTree = "<group>"; };
+		7F8E1604174B67E4001BB772 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F8E1605174B67E4001BB772 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F8E1607174B67E4001BB772 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7F8E1609174B67E4001BB772 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7F8E160B174B67E4001BB772 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7F8E160D174B67E4001BB772 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F8E160E174B67E4001BB772 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F8E1611174B67E4001BB772 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7F8E1619174B6808001BB772 /* BECheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECheckBox.h; sourceTree = "<group>"; };
+		7F8E161A174B6808001BB772 /* BECheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BECheckBox.m; sourceTree = "<group>"; };
+		7F8E161B174B6808001BB772 /* com_btn_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com_btn_checked.png; sourceTree = "<group>"; };
+		7F8E161C174B6808001BB772 /* com_btn_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com_btn_checked@2x.png"; sourceTree = "<group>"; };
+		7F8E161D174B6808001BB772 /* com_btn_uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com_btn_uncheck.png; sourceTree = "<group>"; };
+		7F8E161E174B6809001BB772 /* com_btn_uncheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com_btn_uncheck@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F8E15EF174B67E4001BB772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8E15F6174B67E4001BB772 /* UIKit.framework in Frameworks */,
+				7F8E15F8174B67E4001BB772 /* Foundation.framework in Frameworks */,
+				7F8E15FA174B67E4001BB772 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F8E15E9174B67E4001BB772 = {
+			isa = PBXGroup;
+			children = (
+				7F8E15FB174B67E4001BB772 /* CheckBoxButton */,
+				7F8E15F4174B67E4001BB772 /* Frameworks */,
+				7F8E15F3174B67E4001BB772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8E15F3174B67E4001BB772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E15F2174B67E4001BB772 /* CheckBoxButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F8E15F4174B67E4001BB772 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E15F5174B67E4001BB772 /* UIKit.framework */,
+				7F8E15F7174B67E4001BB772 /* Foundation.framework */,
+				7F8E15F9174B67E4001BB772 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F8E15FB174B67E4001BB772 /* CheckBoxButton */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E1604174B67E4001BB772 /* AppDelegate.h */,
+				7F8E1605174B67E4001BB772 /* AppDelegate.m */,
+				7F8E160D174B67E4001BB772 /* ViewController.h */,
+				7F8E160E174B67E4001BB772 /* ViewController.m */,
+				7F8E1610174B67E4001BB772 /* ViewController.xib */,
+				7F8E1619174B6808001BB772 /* BECheckBox.h */,
+				7F8E161A174B6808001BB772 /* BECheckBox.m */,
+				7F8E161B174B6808001BB772 /* com_btn_checked.png */,
+				7F8E161C174B6808001BB772 /* com_btn_checked@2x.png */,
+				7F8E161D174B6808001BB772 /* com_btn_uncheck.png */,
+				7F8E161E174B6809001BB772 /* com_btn_uncheck@2x.png */,
+				7F8E15FC174B67E4001BB772 /* Supporting Files */,
+			);
+			path = CheckBoxButton;
+			sourceTree = "<group>";
+		};
+		7F8E15FC174B67E4001BB772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E15FD174B67E4001BB772 /* CheckBoxButton-Info.plist */,
+				7F8E15FE174B67E4001BB772 /* InfoPlist.strings */,
+				7F8E1601174B67E4001BB772 /* main.m */,
+				7F8E1603174B67E4001BB772 /* CheckBoxButton-Prefix.pch */,
+				7F8E1607174B67E4001BB772 /* Default.png */,
+				7F8E1609174B67E4001BB772 /* Default@2x.png */,
+				7F8E160B174B67E4001BB772 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F8E15F1174B67E4001BB772 /* CheckBoxButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8E1615174B67E4001BB772 /* Build configuration list for PBXNativeTarget "CheckBoxButton" */;
+			buildPhases = (
+				7F8E15EE174B67E4001BB772 /* Sources */,
+				7F8E15EF174B67E4001BB772 /* Frameworks */,
+				7F8E15F0174B67E4001BB772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckBoxButton;
+			productName = CheckBoxButton;
+			productReference = 7F8E15F2174B67E4001BB772 /* CheckBoxButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F8E15EA174B67E4001BB772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zhenai;
+			};
+			buildConfigurationList = 7F8E15ED174B67E4001BB772 /* Build configuration list for PBXProject "CheckBoxButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F8E15E9174B67E4001BB772;
+			productRefGroup = 7F8E15F3174B67E4001BB772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F8E15F1174B67E4001BB772 /* CheckBoxButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F8E15F0174B67E4001BB772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8E1600174B67E4001BB772 /* InfoPlist.strings in Resources */,
+				7F8E1608174B67E4001BB772 /* Default.png in Resources */,
+				7F8E160A174B67E4001BB772 /* Default@2x.png in Resources */,
+				7F8E160C174B67E4001BB772 /* Default-568h@2x.png in Resources */,
+				7F8E1612174B67E4001BB772 /* ViewController.xib in Resources */,
+				7F8E1620174B6809001BB772 /* com_btn_checked.png in Resources */,
+				7F8E1621174B6809001BB772 /* com_btn_checked@2x.png in Resources */,
+				7F8E1622174B6809001BB772 /* com_btn_uncheck.png in Resources */,
+				7F8E1623174B6809001BB772 /* com_btn_uncheck@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8E15EE174B67E4001BB772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8E1602174B67E4001BB772 /* main.m in Sources */,
+				7F8E1606174B67E4001BB772 /* AppDelegate.m in Sources */,
+				7F8E160F174B67E4001BB772 /* ViewController.m in Sources */,
+				7F8E161F174B6809001BB772 /* BECheckBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F8E15FE174B67E4001BB772 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8E15FF174B67E4001BB772 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F8E1610174B67E4001BB772 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8E1611174B67E4001BB772 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F8E1613174B67E4001BB772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F8E1614174B67E4001BB772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F8E1616174B67E4001BB772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckBoxButton/CheckBoxButton-Prefix.pch";
+				INFOPLIST_FILE = "CheckBoxButton/CheckBoxButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F8E1617174B67E4001BB772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckBoxButton/CheckBoxButton-Prefix.pch";
+				INFOPLIST_FILE = "CheckBoxButton/CheckBoxButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F8E15ED174B67E4001BB772 /* Build configuration list for PBXProject "CheckBoxButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8E1613174B67E4001BB772 /* Debug */,
+				7F8E1614174B67E4001BB772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8E1615174B67E4001BB772 /* Build configuration list for PBXNativeTarget "CheckBoxButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8E1616174B67E4001BB772 /* Debug */,
+				7F8E1617174B67E4001BB772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F8E15EA174B67E4001BB772 /* Project object */;
+}
